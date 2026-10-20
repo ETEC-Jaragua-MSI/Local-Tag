@@ -1,4 +1,4 @@
-# 📋 Implantação de Gestão de Incidentes ITIL v4 na Escola Técnica InfoPro
+# 📋 Localização e identificação de máquinas - ETEC Jaragua
 
 > **Proposta de estruturação do processo de gestão de incidentes de TI com base em ITIL v4 para o laboratório de informática da Escola Técnica InfoPro, visando reduzir o tempo de indisponibilidade dos equipamentos em 50%.**
 
