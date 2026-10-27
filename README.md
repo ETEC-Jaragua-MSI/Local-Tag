@@ -40,7 +40,7 @@
 
 **Resumo:**
 
-Para empresas grandes e médias com diversos computadores onde a localização, identificação e atualização de status de cada uma torna uma rotina complexa, com base nisso adotamos uma solução que visa facilitar esse controle de máquinas, onde será possível identificar uma máquina através de uma ServiceTag em cada dispositivo tornando o controle de cada máquina mais acessível para o suporte de TI da empresa.
+Para empresas de grande e médio porte com diversos computadores onde a localização, identificação e atualização de status de cada uma torna uma rotina complexa, com base nisso adotamos uma solução que visa facilitar esse controle de máquinas, onde será possível identificar uma máquina através de uma ServiceTag em cada dispositivo tornando o controle de cada máquina mais acessível para o suporte de TI da empresa.
 
 **Palavras-chave:** `governança de TI`, `ServiceTag`, `Controle de máquinas`, `TCC`
 
