@@ -1,6 +1,6 @@
-# 📋 Localização e identificação de máquinas - ETEC Jaragua
+# 📋 Localização e identificação Tag de máquinas - ETEC Jaragua
 
-> **Proposta de estruturação do processo de gestão de incidentes de TI com base em ITIL v4 para o laboratório de informática da Escola Técnica InfoPro, visando reduzir o tempo de indisponibilidade dos equipamentos em 50%.**
+> **Proposta para fins de organizações e controle de Computadores.**
 
 [![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)]()
 [![Curso](https://img.shields.io/badge/Curso-Manutenção%20e%20Suporte-blue)]()
@@ -32,7 +32,7 @@
 | Campo | Detalhe |
 |-------|---------|
 | **Instituição** | ETEC Jaraguá — Centro Paula Souza |
-| **Curso** | Manutenção e Suporte em Informática |
+| **Curso** | Manutenção e Suporte em Informática III |
 | **Disciplina** | Governança de TI |
 | **Semestre** | 2026.1 |
 | **Orientador(a)** | Profª Tainá Oliveira |
@@ -40,9 +40,9 @@
 
 **Resumo:**
 
-A Escola Técnica InfoPro possui 3 laboratórios de informática com 90 computadores que atendem 12 turmas semanalmente. Atualmente, não existe um processo formalizado para registro e tratamento de falhas nos equipamentos: alunos reportam problemas verbalmente ao professor, que anota em caderno e repassa ao técnico de forma informal. Isso resulta em perda de aulas, equipamentos parados por semanas e reincidência de falhas já conhecidas. Este projeto propõe a implantação de um processo de Gestão de Incidentes baseado nas práticas do ITIL v4, incluindo a criação de um catálogo de incidentes recorrentes, definição de níveis de prioridade, fluxo de escalonamento e uma base de conhecimento com soluções documentadas. A proposta foi validada por meio de simulação com dados reais de 3 meses de operação, demonstrando potencial de redução de 52% no tempo médio de resolução.
+Para empresas grandes e médias com diversos computadores onde a localização, identificação e atualização de status de cada uma torna uma rotina complexa, com base nisso adotamos uma solução que visa facilitar esse controle de máquinas, onde será possível identificar uma máquina através de uma ServiceTag em cada dispositivo tornando o controle de cada máquina mais acessível para o suporte de TI da empresa.
 
-**Palavras-chave:** `governança de TI`, `ITIL v4`, `gestão de incidentes`, `service desk`, `laboratório de informática`
+**Palavras-chave:** `governança de TI`, `ServiceTag`, `Controle de máquinas`, `TCC`
 
 ---
 
@@ -50,12 +50,12 @@ A Escola Técnica InfoPro possui 3 laboratórios de informática com 90 computad
 
 ### Problema
 
-> A Escola Técnica InfoPro não possui processo formalizado de gestão de incidentes de TI. O registro é feito em caderno físico sem categorização, priorização ou rastreabilidade. O tempo médio de resolução é de 5,3 dias úteis e 34% dos incidentes são reincidentes por falta de documentação de soluções.
+> Em uma empresa onde existem diversas máquinas, o controle individual de cada máquina se torna difícil. Há um upgrade em uma máquina, e isso deve ser atualizado na relação. Onde essa máquina estava? De qual setor? Estou em frente à máquina, porém não tenho nenhum dado sobre ela. Para isso, será necessário abrir a relação no SharePoint ou no servidor e visualizar as informações da máquina, torna o processo mais lento.
 
 ### Justificativa
 
 - 📊 **Dados do cenário atual:**
-  - 47 incidentes/mês em média (levantamento mar-mai/2026)
+  - 60 empresas com os dados de cada máquina desatualizado.
   - Tempo médio de resolução: 5,3 dias úteis
   - 34% de taxa de reincidência
   - 12 aulas/mês impactadas por equipamentos indisponíveis
